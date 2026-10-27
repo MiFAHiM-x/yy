@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎓 Result Browser"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HSC 2026 • Dinajpur Board"
+        android:textSize="14sp"
+        android:textColor="#546E7A"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="সার্ভার সিলেক্ট করো"
+        android:textSize="16sp"
+        android:textColor="#37474F"
+        android:layout_marginBottom="24dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnServer1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Server 1\neboardresults.com"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="12dp"
+        android:backgroundTint="#1565C0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnServer2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Server 2\neducationboardresults.gov.bd"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        app:cornerRadius="12dp"
+        android:backgroundTint="#2E7D32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll: 305033  |  Reg: 2117820810"
+        android:textSize="12sp"
+        android:textColor="#90A4AE"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>
